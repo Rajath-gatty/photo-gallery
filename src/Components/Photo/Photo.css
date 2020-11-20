@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.wrapper {
+    padding: 0.25rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0rem;
+    background-color: rgb(36, 80, 201);
+    color: #fff;
+}
+
+p {
+    margin-bottom: 0.75rem;
+}
+
+p:first-child  {
+    margin-top: 0.75rem;
+}
+
+
+span {
+    font-weight: bold;
+}

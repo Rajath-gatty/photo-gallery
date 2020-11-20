@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: rgb(36, 80, 201);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    margin-left: 2rem;
+}
+
+input {
+    padding-left: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+@media(max-width: 568px) {
+    h1 {
+        display: none;
+    }
+
+    .navbar {
+        height: 60px;
+    }
+
+    form {
+        margin-top: 0.1rem;
+    }
+}
